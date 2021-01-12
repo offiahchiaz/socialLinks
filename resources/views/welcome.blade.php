@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>socialLinks</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -97,4 +97,17 @@
             </div>
         </div>
     </body>
-</html>
+</html> --}}
+
+@extends('layouts.app')
+
+@section('content')
+
+    <div class="container-fluid">
+        
+        <div class="title m-b-md" style="font-size: 84px; margin-bottom: 30px;">
+            Laravel
+        </div>
+    </div>
+
+@endsection
