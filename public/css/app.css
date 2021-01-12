@@ -11004,7 +11004,7 @@ a.text-dark:focus {
   text-transform: uppercase;
   border-radius: calc(10px);
   font-size: 14px;
-  height: 32px;
+  height: 30px;
   padding: 0px calc(16px);
   border-radius: calc(8px);
   cursor: pointer;
@@ -11026,6 +11026,19 @@ a.text-dark:focus {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.1s ease-out 0s;
+}
+
+.fourth > :not(:last-child) {
+  margin-bottom: 6.66667vw;
+}
+
+.ninth > :last-child {
+  padding-left: 11.1111%;
+  padding-right: 5.55556%;
+}
+
+.tenth > :last-child {
+  margin-bottom: 8px;
 }
 
 /* ======= End styling for welcome blade ============== */

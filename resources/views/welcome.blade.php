@@ -120,6 +120,21 @@
 
                 
                 
+                {{-- <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <video playsinline autoplay muted loop>
+                            <source src="https://videos.ctfassets.net/lbsm39fugycf/1i6LctbRMzKsEmWCdbZWe8/3aecc0e1dd43fa2e291e9d6778c822ee/link_to_anywhere.mp4">
+                        </video>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                            Use it anywhere
+Take your Linktree wherever your audience is, to help them to discover all your important content.
+                        </p>
+                    </div>
+                </div>
+                 --}}
+                
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -133,6 +148,84 @@
                 </div>
             </div>
         </div>
+
+        <div class="row" style="padding: 64px 0px;">
+            <div style="box-sizing: border-box; margin: 0px auto; width: 100%;
+                max-width: calc(1280px);padding: 0px 64px; -webkit-tap-highlight-color: transparent; display: block;">
+                <div style="margin: 0px auto; padding: 4.44444vw 0px; display: flex; flex-direction: column;-webkit-box-align: center;
+                    align-items: center; -webkit-tap-highlight-color: transparent;">
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: auto;column-gap: 3.33333%; direction: ltr;
+                        text-align: left; -webkit-tap-highlight-color: transparent;">
+                        <div style="height: 0px; width: 100%; position: relative; overflow: hidden; flex: 1 1 0%; min-height: 552px; display: block; direction: ltr;
+                            text-align: left; -webkit-tap-highlight-color: transparent;">
+                            <div style="bottom: -2px; top: 50%; left: 50%; transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; width: auto; 
+                                height: auto; position: absolute !important; display: block; -webkit-tap-highlight-color: transparent; direction: ltr; text-align: left;">
+                            <video style="height: 100%; width: 100%; -webkit-tap-highlight-color: transparent; object-fit: contain; direction: ltr;
+                                text-align: left;" playsinline autoplay muted loop>
+                                <source src="https://videos.ctfassets.net/lbsm39fugycf/1i6LctbRMzKsEmWCdbZWe8/3aecc0e1dd43fa2e291e9d6778c822ee/link_to_anywhere.mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div style="padding-left: 11.1111%; padding-right: 5.55556%; align-self: center;direction: ltr; -webkit-tap-highlight-color: transparent; 
+                        display: block; text-align: left;">
+                        <span type="heading" style="margin-bottom: 8px; font-size: 3.33333vw;line-height: 1.17; color: rgb(19, 20, 21); letter-spacing: calc(-0.96px);
+                            font-weight: normal; display: block; -webkit-tap-highlight-color: transparent; direction: ltr; text-align: left;">
+                            Use it anywhere
+                        </span>
+                        <span style="font-size: 1.66667vw; line-height: 1.5; color: rgb(38, 50, 56); letter-spacing: calc(-0.48px); font-weight: normal;
+                            display: block; -webkit-tap-highlight-color: transparent; direction: ltr; text-align: left;">
+                            Take your Linktree wherever your audience is, to help them to discover all your important content.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </div>
+
+
+
+    {{-- <div class="row first" style="padding: 64px 0px; -webkit-tap-highlight-color: transparent; display: block;">
+        <div class="second" style="box-sizing: border-box; margin: 0px auto; width: 100%; max-width: calc(1280px); padding: 0px 64px; 
+            -webkit-tap-highlight-color: transparent; display: block;">
+            <div class="third" style="margin: 0px auto; padding: 4.44444vw 0px; display: flex; flex-direction: column; 
+                -webkit-box-align: center; align-items: center; -webkit-tap-highlight-color: transparent;">
+                <div class="fourth" style="display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; 
+                    column-gap: 3.33333%; direction: ltr; text-align: left; -webkit-tap-highlight-color: transparent;">
+                    <div class="fifth" style="height: 0px; width: 100%; position: relative; overflow: hidden; flex: 1 1 0%; min-height: 552px; 
+                        -webkit-tap-highlight-color: transparent; display: block; direction: ltr; text-align: left;">
+                        <div class="sixth" style="bottom: -2px; top: 50%; left: 50%; transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; width: auto; 
+                            height: auto; position: absolute !important; -webkit-tap-highlight-color: transparent; display: block; direction: ltr; text-align: left;">
+                            <video class="seventh" class style="height: 100%; width: 100%; -webkit-tap-highlight-color: transparent; object-fit: contain; 
+                                direction: ltr; text-align: left;" playsinline autoplay muted loop>
+                                <source style="eightr" style="-webkit-tap-highlight-color: transparent;" 
+                                    src="https://videos.ctfassets.net/lbsm39fugycf/1i6LctbRMzKsEmWCdbZWe8/3aecc0e1dd43fa2e291e9d6778c822ee/link_to_anywhere.mp4">
+                            </video>
+                        </div>
+                    </div>
+
+                    <div class="ninth" style="align-self: center; direction: ltr; -webkit-tap-highlight-color: transparent; 
+                        display: block; text-align: left;">
+                            <span class="tenth" style="font-size: 3.33333vw; line-height: 1.17; color: rgb(19, 20, 21); letter-spacing: calc(-0.96px);
+                                font-weight: normal; display: block; -webkit-tap-highlight-color: transparent; direction: ltr; text-align: left;">
+                                Use it anywhere
+                            </span>
+                            <span class="eleventh" style="font-size: 1.66667vw; line-height: 1.5; color: rgb(38, 50, 56); letter-spacing: calc(-0.48px); 
+                                font-weight: normal; display: block; -webkit-tap-highlight-color: transparent; direction: ltr; text-align: left;">
+                                    Take your Linktree wherever your audience is, to help them to discover all your important content.
+                                </span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div> --}}
+
+
+
+
+    
+
+    {{-- <div class="text-center" style="height: 200px">
+        <img src="{{url('/images/phone.png')}}" class="rounded" alt="Image"/>
+    </div> --}}
 
 @endsection
