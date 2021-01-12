@@ -34,21 +34,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
-                        <li class="nav-item"><a href="/pricing" class="nav-link">Pricing</a></li>
-                        <li class="nav-item"><a href="/help" class="nav-link">Help</a></li>
+                        <li class="nav-item gen-nav"><a href="/blog" class="nav-link">Blog</a></li>
+                        <li class="nav-item gen-nav"><a href="/pricing" class="nav-link">Pricing</a></li>
+                        <li class="nav-item gen-nav"><a href="/help" class="nav-link">Help</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         @guest
-                            <li class="nav-item">
+                            <li class="nav-item gen-nav">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
                             @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <li class="nav-item mt-1 signup-link">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Sign up free') }}</a>
                                 </li>
                             @endif
                         @else
