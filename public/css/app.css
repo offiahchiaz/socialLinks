@@ -11021,24 +11021,25 @@ a.text-dark:focus {
 }
 
 .gen-nav > a:hover {
-  background-image: linear-gradient(to right, rgb(40, 191, 123), rgb(46, 211, 186) 20%, rgb(68, 194, 215) 40%, rgb(90, 162, 220) 60%, rgb(112, 141, 224) 80%, rgb(138, 134, 229));
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size 0.1s ease-out 0s;
+  background-image: linear-gradient(to right, rgb(40, 191, 123), rgb(46, 211, 186) 20%, rgb(68, 194, 215) 40%, 
+    rgb(90, 162, 220) 60%, rgb(112, 141, 224) 80%, rgb(138, 134, 229));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.1s ease-out 0s;
 }
 
-.fourth > :not(:last-child) {
+/* .fourth > :not(:last-child) {
   margin-bottom: 6.66667vw;
-}
+} */
 
-.ninth > :last-child {
+/* .ninth > :last-child {
   padding-left: 11.1111%;
   padding-right: 5.55556%;
-}
+} */
 
-.tenth > :last-child {
+/* .tenth > :last-child {
   margin-bottom: 8px;
-}
+} */
 
 /* ======= End styling for welcome blade ============== */
