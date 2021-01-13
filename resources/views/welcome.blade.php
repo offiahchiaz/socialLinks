@@ -218,7 +218,7 @@ Take your Linktree wherever your audience is, to help them to discover all your 
                                 height: auto; position: absolute !important; display: block; -webkit-tap-highlight-color: transparent; direction: ltr; text-align: left;">
                             <video class="seventh" style="height: 100%; width: 100%; -webkit-tap-highlight-color: transparent; object-fit: contain; direction: ltr;
                                 text-align: left;" playsinline autoplay muted loop>
-                                <source style="eight" src="">
+                                <source style="eight" src="https://videos.ctfassets.net/lbsm39fugycf/4jcMGgBbI0ZkJxn9Wqy3DK/61f26c5d0e317799c58e48cd484ce1e6/linktree-causes-landing-page-hero-1.mp4">
                             </video>
                         </div>
                     </div>
