@@ -33,10 +33,17 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item gen-nav"><a href="/dashboard" class="nav-link">Links</a></li>
-                        <li class="nav-item gen-nav"><a href="/dashboard/settings" class="nav-link">Settings</a></li>
-                        <li class="nav-item gen-nav"><a href="/dashboard/pro" class="nav-link">PRO</a></li>
+                    <ul class="navbar-nav mr-auto dash-nav">
+                        <li class="{{ (request()->is('dashboard')) ? 'dash-link' : '' }} nav-item gen-nav">
+                            <a href="/dashboard" class="nav-link">Links</a>
+                        </li>
+                        
+                        <li class="{{ (request()->is('dashboard/settings')) ? 'dash-link' : '' }} nav-item gen-nav">
+                            <a href="/dashboard/settings" class="nav-link">Settings</a>
+                        </li>
+                        <li class="{{ (request()->is('dashboard/pro')) ? 'dash-link' : '' }} nav-item gen-nav">
+                            <a href="/dashboard/pro" class="nav-link">PRO</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
