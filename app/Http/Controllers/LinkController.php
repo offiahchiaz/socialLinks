@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Link;
+use Auth;
 
 class LinkController extends Controller
 {
@@ -23,6 +25,8 @@ class LinkController extends Controller
      */
     public function index()
     {
+        $links = Auth::user()->links()->get();
+        
         return view('links.index');
     }
 }
