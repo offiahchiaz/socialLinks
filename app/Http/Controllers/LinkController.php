@@ -59,4 +59,21 @@ class LinkController extends Controller
             'link' => $link
         ]);
     }
+
+    public function update(Request $request, Link $link)
+    {
+        if($link->user_id != Auth::id()) {
+            return abort(403);
+        }
+
+        $request->validate([
+            'name' => 'required|max:255',
+            'link' => 'required|url'
+        ]);
+
+        $link->update($request->only(['name', 'link']));
+
+        
+        return redirect()->to('/dashboard');
+    }
 }

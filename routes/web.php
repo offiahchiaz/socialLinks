@@ -17,11 +17,13 @@ Route::get('/', function () {
 
 Auth::routes();
 
+// Dashboard Routes
 
 Route::get('/dashboard', 'LinkController@index');
 Route::get('/dashboard/links/new', 'LinkController@create');
 Route::post('/dashboard/links/new', 'LinkController@store');
 Route::get('/dashboard/links/{link}', 'LinkController@edit');
+Route::post('/dashboard/links/{link}', 'LinkController@update');
 
 
 
