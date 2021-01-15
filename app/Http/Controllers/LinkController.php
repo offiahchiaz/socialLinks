@@ -42,10 +42,21 @@ class LinkController extends Controller
         $link = Auth::user()->links()
             ->create($request->only(['name', 'link']));
 
-            if ($link) {
-                return redirect()->to('/dashboard');
-            }
+        if ($link) {
+            return redirect()->to('/dashboard');
+        }
 
-            return redirect()->back();
+        return redirect()->back();
+    }
+
+    public function edit(Link $link)
+    {
+        if($link->user_id != Auth::id()) {
+            return abort(404);
+        }
+
+        return view('links.edit', [
+            'link' => $link
+        ]);
     }
 }

@@ -17,7 +17,7 @@
                     @endif
 
                     
-                    <form action="/dashboard/create" method="post">
+                    <form action="/dashboard/links/new" method="post">
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <div class="form-group"
