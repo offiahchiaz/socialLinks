@@ -51,7 +51,15 @@
                                             <td>
                                             Aug 3, 2020 - 12:30pm
                                             </td>
-                                            <td><a href="/dashboard/links/{{ $link->id }}">Edit</a> </td>
+                                            <td class="font-link">
+                                                <a href="/dashboard/links/{{ $link->id }}">
+                                                    <i class="far fa-edit fa-lg"></i>
+                                                </a> 
+                                                <a href="" class="ml-2">
+                                                    <i class="far fa-trash-alt fa-lg"></i>
+                                                </a> 
+                                                
+                                            </td>
                                         </tr>
                                     @endforeach
                                 </tbody>

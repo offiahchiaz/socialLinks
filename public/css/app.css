@@ -11034,6 +11034,10 @@ a.text-dark:focus {
   border-bottom: 2px solid #000000;
 }
 
+.font-link > a:hover {
+  text-decoration: none;
+}
+
 
 
 /* .fourth > :not(:last-child) {

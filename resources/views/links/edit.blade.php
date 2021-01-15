@@ -52,7 +52,7 @@
                             <div class="col-12">
                                 @csrf
                                 <a href="/dashboard" class="btn btn-secondary float-right ml-2">Cancel</a>
-                                <button type="submit" class="btn btn-primary float-right">Save Link</button>
+                                <button type="submit" class="btn btn-primary float-right">Update Link</button>
                             </div>
                         </div>
                     </form>
