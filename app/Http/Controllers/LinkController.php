@@ -18,11 +18,6 @@ class LinkController extends Controller
         $this->middleware('auth');
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
     public function index()
     {
         $links = Auth::user()->links()->get();
@@ -30,5 +25,10 @@ class LinkController extends Controller
         return view('links.index', [
             'links' => $links
         ]);
+    }
+
+    public function create()
+    {
+        return view('links.create');
     }
 }

@@ -19,6 +19,7 @@ Auth::routes();
 
 
 Route::get('/dashboard', 'LinkController@index');
+Route::get('/dashboard/create', 'LinkController@create');
 
 
 

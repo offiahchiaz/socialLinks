@@ -22,7 +22,7 @@
                 <div class="card-header">Dashboard</div>
 
                 <div class="card-body">
-                    <a href="/dashboard/links/new" class="btn btn-primary btn-block mb-4">Add Link</a>
+                    <a href="/dashboard/create" class="btn btn-primary btn-block mb-4">Add Link</a>
 
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
