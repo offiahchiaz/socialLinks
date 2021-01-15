@@ -28,7 +28,24 @@ class LinkController extends Controller
     }
 
     public function create()
-    {
+    {  
         return view('links.create');
+    }
+
+    public function store(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|max:255',
+            'link' => 'required|url'
+        ]);
+
+        $link = Auth::user()->links()
+            ->create($request->only(['name', 'link']));
+
+            if ($link) {
+                return redirect()->to('/dashboard');
+            }
+
+            return redirect()->back();
     }
 }
