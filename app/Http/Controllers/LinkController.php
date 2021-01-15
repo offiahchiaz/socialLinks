@@ -26,7 +26,9 @@ class LinkController extends Controller
     public function index()
     {
         $links = Auth::user()->links()->get();
-        
-        return view('links.index');
+
+        return view('links.index', [
+            'links' => $links
+        ]);
     }
 }
