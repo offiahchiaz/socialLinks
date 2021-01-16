@@ -46,7 +46,7 @@
                                     @foreach($links as $link)
                                         <tr>
                                             <td>{{ $link->name }}</td>
-                                            <td><a href="{{ $link->link }}">{{ $link->link }}</a> </td>
+                                            <td><a>{{ $link->link }}</a> </td>
                                             <td>0</td>
                                             <td>
                                             Aug 3, 2020 - 12:30pm
@@ -55,7 +55,7 @@
                                                 <a href="/dashboard/links/{{ $link->id }}">
                                                     <i class="far fa-edit fa-lg"></i>
                                                 </a> 
-                                                <a href="" class="ml-2">
+                                                <a href="" class="ml-1">
                                                     <i class="far fa-trash-alt fa-lg"></i>
                                                 </a> 
                                                 
