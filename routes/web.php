@@ -31,4 +31,4 @@ Route::delete('/dashboard/links/{link}', 'LinkController@destroy');
 
 // Visitor Routes
 // Route::post('/visit/{link}', 'VisitController@store');
-// Route::get('/{user}', 'UserController@show');
+Route::get('/{user}', 'UserController@show');
