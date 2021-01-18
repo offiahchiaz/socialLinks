@@ -114,7 +114,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <button class="new-btn mb-3"><strong><a href="/register">GET STARTED FOR FREE</a></strong></button>
+                    <a href="/register"><button class="new-btn mb-3"><strong>GET STARTED FOR FREE</strong></button></a>
                 </div>
                 <p class="new-p">Already on Linktree? <a href="/login">Log in</a></p>
 
