@@ -113,8 +113,10 @@
                     <p class="new-p">Connect audiences to all of your content with just one link</p>
                 </div>
 
-                <div class="row justify-content-center">
-                    <a href="/register"><button class="new-btn mb-3"><strong>GET STARTED FOR FREE</strong></button></a>
+                <div id="lol" class="row justify-content-center">
+                    {{-- <a class="lol" href="/register"><button class="new-btn mb-3"><strong>GET STARTED FOR FREE</strong></button></a> --}}
+
+                    <a href="/register" class="mb-3 new-btn"><strong>GET STARTED FOR FREE</strong></a>
                 </div>
                 <p class="new-p">Already on Linktree? <a href="/login">Log in</a></p>
 

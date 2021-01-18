@@ -10969,8 +10969,10 @@ a.text-dark:focus {
   color: #ffffff;
 }
 
-.new-btn > strong > a:hover {
+#lol > a:hover {
   text-decoration: none;
+  color: #ffffff;
+  background: rgb(80, 57, 153);
 }
 
 .new-p {
