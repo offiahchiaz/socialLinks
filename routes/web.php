@@ -24,6 +24,7 @@ Route::get('/dashboard/links/new', 'LinkController@create');
 Route::post('/dashboard/links/new', 'LinkController@store');
 Route::get('/dashboard/links/{link}', 'LinkController@edit');
 Route::post('/dashboard/links/{link}', 'LinkController@update');
+Route::delete('/dashboard/links/{link}', 'LinkController@destroy');
 
 
 

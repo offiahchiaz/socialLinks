@@ -55,10 +55,14 @@
                                                 <a href="/dashboard/links/{{ $link->id }}">
                                                     <i class="far fa-edit fa-lg"></i>
                                                 </a> 
-                                                <a href="" class="ml-1">
+                                                <a href="/dashboard/links/{{ $link->id }}" class="ml-1"
+                                                    onclick="event.preventDefault(); document.getElementById('delete-form').submit();">
                                                     <i class="far fa-trash-alt fa-lg"></i>
-                                                </a> 
-                                                
+                                                </a>
+                                                <form id="delete-form" action="/dashboard/links/{{ $link->id }}" method="post">
+                                                    @csrf
+                                                    @method('DELETE')
+                                                </form>
                                             </td>
                                         </tr>
                                     @endforeach
