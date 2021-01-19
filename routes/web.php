@@ -33,5 +33,5 @@ Route::post('/dashboard/settings', 'UserController@update');
 
 
 // Visitor Routes
-// Route::post('/visit/{link}', 'VisitController@store');
+Route::post('/visit/{link}', 'VisitController@store');
 Route::get('/{user}', 'UserController@show');
