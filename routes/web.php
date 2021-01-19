@@ -27,6 +27,7 @@ Route::post('/dashboard/links/{link}', 'LinkController@update');
 Route::delete('/dashboard/links/{link}', 'LinkController@destroy');
 
 Route::get('/dashboard/settings', 'UserController@edit');
+Route::post('/dashboard/settings', 'UserController@update');
 
 
 
